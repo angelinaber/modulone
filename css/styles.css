@@ -12,6 +12,10 @@ min-height: 700px;
 max-height: 700px;
 }
 
+connect-src uaas.yandex.ru
+script-src abt.s3.yandex.net
+style-src 'unsafe-inline'
+
 .response{
 display: flex;
 flex-direction: row;
